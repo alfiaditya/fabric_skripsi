@@ -1,0 +1,8 @@
+PeerOrgs:
+  - Name: Peternak
+    Domain: peternak.peternakan.com
+    Specs:
+    Template:
+      Count: 1
+    Users:
+      Count: 1

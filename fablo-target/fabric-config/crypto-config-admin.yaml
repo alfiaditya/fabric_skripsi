@@ -1,0 +1,8 @@
+PeerOrgs:
+  - Name: Admin
+    Domain: admin.peternakan.com
+    Specs:
+    Template:
+      Count: 1
+    Users:
+      Count: 1

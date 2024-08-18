@@ -1,0 +1,5 @@
+2024.08.17-23:51:37.004[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2024.08.17-23:51:37.431[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/alfi/fabric-ternak-chaincode"
+2024.08.17-23:51:37.433[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2024.08.17-23:51:37.433[32m info [39m [caliper] [bind] 	Using working directory: /home/alfi/fabric-ternak-chaincode
+2024.08.17-23:51:37.433[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3

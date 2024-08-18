@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@hyperledger/caliper-cli": "^0.4.2",
+    "dotenv": "^16.4.5",
+    "fabric-ca-client": "^2.2.3",
+    "fabric-network": "^2.2.3",
+    "fs": "^0.0.1-security"
+  }
+}
