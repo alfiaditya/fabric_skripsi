@@ -62,6 +62,18 @@
           "peers": [
             "peer0"
           ]
+        },
+        {
+          "name": "Admin",
+          "peers": [
+            "peer0"
+          ]
+        },
+        {
+          "name": "DKPP",
+          "peers": [
+            "peer0"
+          ]
         }
       ]
     }

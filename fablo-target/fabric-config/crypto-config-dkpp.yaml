@@ -1,8 +1,0 @@
-PeerOrgs:
-  - Name: DKPP
-    Domain: dkpp.peternakan.com
-    Specs:
-    Template:
-      Count: 1
-    Users:
-      Count: 1

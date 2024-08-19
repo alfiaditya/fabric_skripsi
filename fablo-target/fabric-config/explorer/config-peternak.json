@@ -1,9 +1,0 @@
-{
-  "network-configs": {
-    "network-peternak": {
-      "name": "Network of Peternak",
-      "profile": "/opt/explorer/app/platform/fabric/connection-profile/connection-profile-peternak.json"
-    }
-  },
-  "license": "Apache-2.0"
-}

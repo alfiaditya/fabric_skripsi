@@ -1,9 +1,0 @@
-PeerOrgs:
-  - Name: PeternakanOrderer
-    Domain: orderer.peternakan.com
-    Specs:
-      - Hostname: orderer0.peternakan-ordeerer-group
-    Template:
-      Count: 0
-    Users:
-      Count: 1

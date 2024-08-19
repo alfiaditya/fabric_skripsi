@@ -1,0 +1,49 @@
+name: Caliper test
+version: "2.0.0"
+
+caliper:
+  blockchain: fabric
+  sutOptions:
+    mutualTls: true
+
+channels:
+  - channelName: ternak-channel
+    contracts:
+      - id: ternak-chaincode
+
+organizations:
+  - mspid: PeternakMSP
+    identities:
+      certificates:
+        - name: "User1"
+          clientPrivateKey:
+            path: "../../fabric-ternak-chaincode/fablo-target/fabric-config/crypto-config/peerOrganizations/peternak.peternakan.com/users/User1@peternak.peternakan.com/msp/keystore/priv-key.pem"
+          clientSignedCert:
+            path: "../../fabric-ternak-chaincode/fablo-target/fabric-config/crypto-config/peerOrganizations/peternak.peternakan.com/users/User1@peternak.peternakan.com/msp/signcerts/User1@peternak.peternakan.com-cert.pem"
+    connectionProfile:
+      path: "../../fabric-ternak-chaincode/fablo-target/fabric-config/connection-profiles/connection-profile-peternak.yaml"
+      discover: true
+  - mspid: AdminMSP
+    identities:
+      certificates:
+        - name: "User1"
+          clientPrivateKey:
+            path: "../../fabric-ternak-chaincode/fablo-target/fabric-config/crypto-config/peerOrganizations/admin.peternakan.com/users/User1@admin.peternakan.com/msp/keystore/priv-key.pem"
+          clientSignedCert:
+            path: "../../fabric-ternak-chaincode/fablo-target/fabric-config/crypto-config/peerOrganizations/admin.peternakan.com/users/User1@admin.peternakan.com/msp/signcerts/User1@admin.peternakan.com-cert.pem"
+    connectionProfile:
+      path: "../../fabric-ternak-chaincode/fablo-target/fabric-config/connection-profiles/connection-profile-admin.yaml"
+      discover: true
+  - mspid: DKPPMSP
+    identities:
+      certificates:
+        - name: "User1"
+          clientPrivateKey:
+            path: "../../fabric-ternak-chaincode/fablo-target/fabric-config/crypto-config/peerOrganizations/dkpp.peternakan.com/users/User1@dkpp.peternakan.com/msp/keystore/priv-key.pem"
+          clientSignedCert:
+            path: "../../fabric-ternak-chaincode/fablo-target/fabric-config/crypto-config/peerOrganizations/dkpp.peternakan.com/users/User1@dkpp.peternakan.com/msp/signcerts/User1@dkpp.peternakan.com-cert.pem"
+    connectionProfile:
+      path: "../../fabric-ternak-chaincode/fablo-target/fabric-config/connection-profiles/connection-profile-dkpp.yaml"
+      discover: true
+
+
